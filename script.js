@@ -2,7 +2,7 @@
 // Ganti nama contoh, jadwal, pengumuman, dan petugas piket sesuai kelas kalian.
 
 const members = [
-  { name: "Nama Ketua", role: "Ketua kelas" },
+  { name: "Raaiq", role: "Ketua kelas" },
   { name: "Nama Wakil", role: "Wakil ketua" },
   { name: "Nama Sekretaris", role: "Sekretaris" },
   { name: "Nama Bendahara", role: "Bendahara" },
