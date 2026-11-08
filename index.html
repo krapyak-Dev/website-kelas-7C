@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Website kelas 7 — tempat berbagi cerita dan informasi kelas.">
+  <title>Kelas 7 — The Midnight Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="header">
+    <a class="brand" href="#home"><span class="brand-icon">✦</span> VII<span class="brand-soft">.CLASS</span></a>
+    <button class="menu-button" id="menuButton" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav id="navigation">
+      <a class="nav-link active" href="#home">Beranda</a>
+      <a class="nav-link" href="#anggota">Anggota</a>
+      <a class="nav-link" href="#jadwal">Jadwal</a>
+      <a class="nav-link" href="#galeri">Galeri</a>
+      <a class="nav-link" href="#pengumuman">Pengumuman</a>
+      <a class="nav-link" href="#piket">Piket</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="live-dot"></span> OUR CLASS • OUR STORY</div>
+        <h1>One class.<br><span>Endless stories.</span></h1>
+        <p class="hero-text">Tempat kita belajar, tertawa, bertumbuh, dan menciptakan kenangan. Selamat datang di rumah digital kelas VII!</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#anggota">Kenalan dengan kami <span>↗</span></a>
+          <a class="button button-quiet" href="#pengumuman">Info terbaru <span>→</span></a>
+        </div>
+        <div class="hero-meta"><span>✧</span> EST. 2026 <i></i> MADE WITH FRIENDSHIP</div>
+      </div>
+      <div class="hero-art" aria-label="Dekorasi bintang">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="planet"><span>VII</span></div>
+        <span class="star star-one">✦</span><span class="star star-two">✧</span><span class="star star-three">✦</span>
+        <div class="floating-note">✦ &nbsp; good days, great friends</div>
+      </div>
+    </section>
+
+    <section class="stats section">
+      <div class="stat"><strong>01</strong><span>ONE TEAM</span></div>
+      <div class="stat"><strong>∞</strong><span>MEMORIES</span></div>
+      <div class="stat"><strong>100%</strong><span>CLASS SPIRIT</span></div>
+    </section>
+
+    <section class="section" id="anggota">
+      <div class="section-heading"><div><div class="eyebrow">THE PEOPLE</div><h2>Kenalan dengan <span>kita.</span></h2></div><p>Setiap orang punya cerita. Bersama, kita jadi satu kelas.</p></div>
+      <div class="member-grid" id="memberGrid"></div>
+      <p class="hint">Ganti nama dan jabatan contoh di <code>script.js</code> dengan data kelas kalian.</p>
+    </section>
+
+    <section class="section" id="jadwal">
+      <div class="section-heading"><div><div class="eyebrow">WEEKLY ROUTINE</div><h2>Jadwal <span>pelajaran.</span></h2></div><p>Atur langkah, siapkan buku, dan jalani hari dengan semangat.</p></div>
+      <div class="table-wrap">
+        <table><thead><tr><th>Hari</th><th>Jam 1</th><th>Jam 2</th><th>Jam 3</th><th>Jam 4</th><th>Jam 5</th></tr></thead><tbody id="scheduleBody"></tbody></table>
+      </div>
+      <p class="hint">Jadwal di bawah masih contoh. Sesuaikan dengan jadwal resmi sekolah.</p>
+    </section>
+
+    <section class="section" id="galeri">
+      <div class="section-heading"><div><div class="eyebrow">LITTLE MOMENTS</div><h2>Galeri <span>kelas.</span></h2></div><p>Momen sederhana yang suatu hari akan jadi kenangan besar.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-card gallery-large"><img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1100&q=85" alt="Suasana belajar bersama" loading="lazy"><figcaption><b>Study together</b><span>Belajar dan bertumbuh</span></figcaption></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=85" alt="Teman-teman berkumpul" loading="lazy"><figcaption><b>Good company</b><span>Teman seperjalanan</span></figcaption></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=85" alt="Ruang kelas" loading="lazy"><figcaption><b>Our classroom</b><span>Tempat cerita dimulai</span></figcaption></figure>
+      </div>
+      <p class="hint">Foto di atas hanya contoh. Ganti dengan foto kelas yang sudah mendapat izin dari orang-orang di dalamnya.</p>
+    </section>
+
+    <section class="section" id="pengumuman">
+      <div class="section-heading"><div><div class="eyebrow">STAY UPDATED</div><h2>Papan <span>pengumuman.</span></h2></div><p>Supaya tidak ada kabar penting yang terlewat.</p></div>
+      <div class="announcement-list" id="announcementList"></div>
+      <p class="hint">Edit isi pengumuman melalui bagian <code>announcements</code> di <code>script.js</code>.</p>
+    </section>
+
+    <section class="section" id="piket">
+      <div class="section-heading"><div><div class="eyebrow">KEEP IT TIDY</div><h2>Jadwal <span>piket.</span></h2></div><p>Kelas nyaman dimulai dari kebiasaan menjaga kebersihan bersama.</p></div>
+      <div class="duty-grid" id="dutyGrid"></div>
+      <p class="hint">Nama petugas piket juga bisa diganti di <code>script.js</code>.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-icon">✦</span> VII<span class="brand-soft">.CLASS</span></a><p>Built with friendship & a little bit of code.</p><a href="#home" class="back-top">Kembali ke atas ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
