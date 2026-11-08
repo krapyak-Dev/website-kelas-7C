@@ -3,10 +3,10 @@
 
 const members = [
   { name: "Raaiq", role: "Ketua kelas" },
-  { name: "Awang Ihsan Syehyar Tony", role: "Wakil ketua" },
-  { name: "Akhtar Aluna", role: "Sekretaris" },
-  { name: "Alldy Raihan Nandaputra", role: "Bendahara 1" },
-  { name: "Qyandra Mahira Dzikra", role: "Bendahara 2" },
+  { name: "Awang", role: "Wakil ketua" },
+  { name: "Akhtar", role: "Sekretaris" },
+  { name: "Alldy ", role: "Bendahara 1" },
+  { name: "Qyandra", role: "Bendahara 2" },
   { name: "Nama Siswa 5", role: "Anggota kelas" },
   { name: "Nama Siswa 6", role: "Anggota kelas" },
   { name: "Nama Siswa 7", role: "Anggota kelas" },
