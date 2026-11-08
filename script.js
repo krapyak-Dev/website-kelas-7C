@@ -14,11 +14,11 @@ const members = [
 ];
 
 const schedule = [
-  ["Senin", "Matematika", "Bahasa Indonesia", "IPA", "IPS", "PJOK"],
-  ["Selasa", "Bahasa Inggris", "PPKn", "Matematika", "Seni Budaya", "Informatika"],
-  ["Rabu", "IPA", "Bahasa Indonesia", "IPS", "Agama", "Matematika"],
-  ["Kamis", "PPKn", "Bahasa Inggris", "PJOK", "IPA", "Prakarya"],
-  ["Jumat", "Agama", "Matematika", "Bahasa Indonesia", "Projek", "—"]
+  ["Senin", "BJawa", "IPA", "Al-Quran", "Matematika", "IPS"],
+  ["Selasa", "BIndo", "Matematika", "BPI", "BArab", "IPS"],
+  ["Rabu", "BInggris", "Al-Quran", "BIndo", "Informatika", "—"],
+  ["Kamis", "PAI", "BK", "PP", "BInggris", "Siroh Nabawiyah"],
+  ["Jumat", "PJOK", "IPA", "Seni Budaya", "Al-Quran", "—"]
 ];
 
 const announcements = [
